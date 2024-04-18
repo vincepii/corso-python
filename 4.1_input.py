@@ -1,0 +1,6 @@
+print('Scrivi il tuo nome:')
+nome = input()
+print('Scrivi il tuo anno di nascita:')
+anno = input()
+print(f'Il tuo nome è {nome} ({len(nome)} lettere)')
+print(f'Sei nato nell\'anno {anno} ed hai {2024-int(anno)} anni')
